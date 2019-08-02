@@ -68,6 +68,10 @@ video {
 <script src="https://cdn.rawgit.com/video-dev/hls.js/18bb552/dist/hls.min.js"></script>
 <!-- partial -->
 <script src='https://raw.githack.com/eljabbaryhicham/beup/master/ch.js'></script>
+<script>	plyr_instance.on('ready', function(event) {
+    var player = plyr_instance.getEmbed();
+    player.setAutopause(false) </script>
+});
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const source = 'https://2222.janjua.pw:8088/live/beinsports3max3/playlist.m3u8?id=90395&pk=44cab1600a73a39965b7fb75dc10f8a553a4d49716fcd2eaad78f91bcfa47ccb';
